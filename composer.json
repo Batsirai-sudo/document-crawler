@@ -1,0 +1,22 @@
+{
+    "name": "batsirai/crawler",
+    "description": "This package fetches the news from the washintonpost.com",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Batsirai\\Crawler\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Batsirai-sudo",
+            "email": "batsybbay@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "symfony/css-selector": "^6.1@RC",
+        "symfony/dom-crawler": "^6.1@RC"
+    }
+}
